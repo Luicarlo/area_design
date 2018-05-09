@@ -49,11 +49,16 @@ table {border-collapse: collapse;border-spacing: 0;}
 .title{
 	text-transform: uppercase;
 }
-.p
+p{
+	font-size:14px
+}
+.bg-Lgray{
+	background-color: #fbfbfb;
+}
 
 /*HEADER*/
 #header{
-	background-color: rgba(0, 0, 0, 0.8);!important;
+	background: rgba(0, 0, 0, 0.8)!important;
 	color: #fff;
 	position: fixed;
 	z-index: 5;
