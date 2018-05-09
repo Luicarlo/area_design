@@ -1,0 +1,131 @@
+/*CSS RESET*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {display: block;}
+body {font-family:'Open Sans', sans-serif !important;line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: '';content: none;}
+table {border-collapse: collapse;border-spacing: 0;}
+
+/*GENERAL*/
+.top20{
+	margin-top: 20px;
+}
+.top40{
+	margin-top: 40px;
+}
+.top60{
+	margin-top: 60px;
+}
+.bottom20{
+	margin-bottom: 20px;
+}
+.bottom40{
+	margin-bottom: 40px;
+}
+.bottom60{
+	margin-bottom: 60px;
+}
+
+/*HEADER*/
+#header{
+	background-color: rgba(0, 0, 0, 0.8);!important;
+	color: #fff;
+	position: fixed;
+	z-index: 5;
+	width:100%;
+}
+#header nav a {
+	color: #fff;
+	font-size:13px;
+	text-transform: uppercase;
+}
+#header nav a:hover{
+	background: none!important;
+	color:rgba(255,255,255,0.6)!important;
+}
+@media screen and (max-width: 767px) {
+	#header nav a {
+	font-size:14px;
+	}
+}
+
+/*SCREEN #1*/
+#screen1{
+	width: 100%;
+	min-height: 700px;
+	height: 100%!important;
+	background: url(../images/living-lamparas-areadesign.jpg);
+	background-size: cover;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 0;
+}
+
+/*CONTENT*/
+#content{
+	/*position:absolute;*/
+	z-index: 0;
+}
+
+/*FOOTER*/
+#footer{
+	background:#000;
+	color: #fff;
+	width:100%;
+}
+#footer nav{
+	margin:15px auto;
+	border-bottom: solid 1px #fff;
+}
+#footer nav ul{
+	padding:5%;
+	margin:0 auto!important;
+	text-align: center;
+}
+#footer nav ul li a{
+	color:#fff;
+	text-transform: uppercase;
+	font-size:13px;
+}
+#footer nav ul li a:hover{
+	background: none!important;
+	color:rgba(255,255,255,0.6)!important;
+}
+#footer #social-icons a i.fa{
+	color: #fff;
+	padding:15px 5px;
+}
+#footer #address{
+	font-size:14px;
+}
+#footer #email{
+	font-size:12px;
+}
+@media screen and (max-width: 767px) {
+	#footer nav ul li a {
+	font-size:14px;
+	}
+}
