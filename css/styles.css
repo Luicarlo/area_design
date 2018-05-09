@@ -55,6 +55,12 @@ p{
 .bg-Lgray{
 	background-color: #fbfbfb;
 }
+.bg-gray{
+	background:#f1efee;
+}
+.bg-black{
+	background:#000;
+}
 
 /*HEADER*/
 #header{
