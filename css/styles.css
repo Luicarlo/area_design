@@ -149,12 +149,37 @@ p{
 	background-color: #fff;
 	margin-top: 25px;
 }
+.bg-create1{
+	background: url(../images/bg-creative1.png);
+	min-height: 370px;
+	background-size: cover;
+}
+.bg-create2{
+	background: url(../images/bg-creative2.png);
+	min-height: 370px;
+	background-size: cover;
+}
+.bg-create3{
+	background: url(../images/bg-creative3.png);
+	min-height: 370px;
+	background-size: cover;
+}
 @media screen and (max-width: 767px) {
 	.experto{
 		min-height:600px;
 	}
 	.experto .text{
 		margin-top:10px;
+	}
+	.bg-create{
+		background: url(../images/interior-design_serv.png);
+		background-size: cover;
+	}
+	.bg-create2{
+		min-height: 180px;
+	}
+	.bg-create3{
+		min-height: 180px;
 	}
 }
 
@@ -252,25 +277,34 @@ p{
 
 
 
-
+button.border-blanco{
+	width:100%;
+	max-width:250px;
+	border:solid 1px #fff;
+	text-align: center;
+	padding:10px;
+	font-size:13px; 
+	background-color: #000;
+	margin-top: 25px;
+	color:#fff;
+}
 
 
 .cuadronegro{
 
 
-   min-height: 380px;
+   min-height: 370px;
    background-color:#000;
    padding: 60px;
    color:#fff;
    line-height:16px;
-
-
 }
 
 .cuadronegro h2{
 
    font-size:26px;
    margin-bottom:25px;
+   line-height:30px;
 
 
 
