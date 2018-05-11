@@ -28,6 +28,9 @@ blockquote:before, blockquote:after, q:before, q:after {content: '';content: non
 table {border-collapse: collapse;border-spacing: 0;}
 
 /*GENERAL*/
+.top10{
+	margin-top: 10px;
+}
 .top20{
 	margin-top: 20px;
 }
@@ -182,6 +185,20 @@ p{
 		min-height: 180px;
 	}
 }
+.trustInUS{
+	padding:80px;
+}
+.trustInUS .logos div{
+	display: block;
+}
+.trustInUS .logos div div{
+	text-align: center;
+	vertical-align:middle;
+	display: inline-block;
+	height:150px;
+}
+
+
 
 /*FOOTER*/
 #footer{
