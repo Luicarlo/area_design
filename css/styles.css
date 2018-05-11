@@ -197,7 +197,60 @@ p{
 	display: inline-block;
 	height:150px;
 }
-
+.home-video{
+	background: url(../images/bg-bedroom.jpg);
+	background-size: cover;
+	padding: 120px;
+	color:#fff;
+}
+.home-video a{
+	color:#fff;
+}
+.preview-blog{
+	padding: 120px 80px;
+}
+.preview-blog img{
+	width:100%;
+}
+.preview-blog article{
+	padding: 20px;
+	background-color: #000;
+	color:#fff;
+	margin-bottom: 30px;
+	height:160px;
+	display:block;
+}
+.preview-blog article h4{
+	width:70%;
+	float: left;
+	font-size:12px!important;
+	height: 24px
+}
+.preview-blog article p.date{
+	width:30%;
+	float: right;
+	font-size:9px;
+	text-align: right;
+}
+.preview-blog article p.caption{
+	width:100%;
+	display:inline-block;
+	margin-top: 15px;
+	text-align: justify;
+	font-size:10px!important;
+	line-height:11px!important;
+}
+.preview-blog article a{
+	color:#fff;
+	font-size:9px;
+	margin-top:15px;
+	position: absolute;
+	display:inline-block; 
+	bottom: 50px;
+	right: 30px;
+	display:block;
+	text-align: right;
+}
 
 
 /*FOOTER*/
