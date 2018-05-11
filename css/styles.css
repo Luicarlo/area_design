@@ -64,7 +64,8 @@ table {border-collapse: collapse;border-spacing: 0;}
 	text-transform: uppercase;
 }
 p{
-	font-size:14px
+	font-size:14px;
+	line-height:16px;
 }
 .bg-Lgray{
 	background-color: #fbfbfb;
@@ -122,6 +123,39 @@ p{
 	bottom: 0;
 	right: 0;
 	z-index: 0;
+}
+.experto{
+	background:url('../images/bg-expertos-en-infografia.png');
+	background-size: cover;
+	padding:30px;
+	min-height:1300px;
+}
+.experto .title{
+	font-size:25px;
+}
+.experto .text{
+	margin-top:120px;
+}
+.experto h2{
+	margin-bottom: 30px
+}
+.experto button{
+	width:100%;
+	max-width:250px;
+	border:solid 1px #000;
+	text-align: center;
+	padding:10px;
+	font-size:13px; 
+	background-color: #fff;
+	margin-top: 25px;
+}
+@media screen and (max-width: 767px) {
+	.experto{
+		min-height:600px;
+	}
+	.experto .text{
+		margin-top:10px;
+	}
 }
 
 /*FOOTER*/
