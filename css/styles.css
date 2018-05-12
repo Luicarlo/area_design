@@ -187,6 +187,8 @@ p{
 }
 .trustInUS{
 	padding:80px;
+	background:url(../images/bg-trustinus.png);
+	background-size:cover;
 }
 .trustInUS .logos div{
 	display: block;
@@ -208,6 +210,8 @@ p{
 }
 .preview-blog{
 	padding: 120px 80px;
+	background: url(../images/bg-ourblog.png);
+	background-size: cover;
 }
 .preview-blog img{
 	width:100%;
