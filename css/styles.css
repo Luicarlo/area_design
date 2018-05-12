@@ -451,8 +451,8 @@ button.border-blanco{
 .barragris{
 
     width:100%;
-    height:400px;
-
+    padding: 100px 40px;
+    
 }
 
 .img1servicio{
@@ -469,8 +469,8 @@ button.border-blanco{
 
    color:#000;
    font-size: 26px;
-   padding-top: 175px;
-   padding-right: 120px; 
+   padding-top: 0px;
+   
 
 }
 
@@ -481,7 +481,7 @@ button.border-blanco{
    padding: 40px 0;
    align-content: 5px;
    line-height: 24px;
-   text-align: left;
+   text-align: justify;
 
 
 }
@@ -514,13 +514,15 @@ button.border-blanco{
 
 .timeline-badge.info{background-color:#000!important}
 
-.timeline-title{margin-top:0;color:inherit}.timeline-body>p,.timeline-body>ul{margin-bottom:0;margin-top:0}
+.timeline-title{margin-top:0;color:inherit;font-size: 11px}.timeline-body>p,.timeline-body>ul{margin-bottom:0;margin-top:0;font-size: 9px;}
 
 .timeline-body>p+p{margin-top:5px}.timeline-badge>.glyphicon{margin-right:0px;color:#fff}.timeline-body>h4{margin-bottom:0!important}
 
 
+.cs2{
 
-
+	text-align:center;
+}
 
 
 /*------servicios-----*/
