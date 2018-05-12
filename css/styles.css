@@ -260,6 +260,12 @@ hr.line{
 	display:block;
 	text-align: right;
 }
+.workprogress{
+	background: url(../images/bg-workprogress.png);
+	background-size: cover;
+	padding: 120px;
+	color: #fff;
+}
 
 
 /*FOOTER*/
