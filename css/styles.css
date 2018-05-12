@@ -266,6 +266,32 @@ hr.line{
 	padding: 120px;
 	color: #fff;
 }
+.interiordesign-t{
+	background: url(../images/bg-interior-design-kitchen.png);
+	background-size: cover;
+	padding: 120px;
+	color: #fff;
+}
+.garantia{
+	padding-top: 80px;
+}
+.garantia p{
+	margin-top: 20px;
+	font-size:10px;
+	line-height: 12px;
+}
+.garantia .icons{
+	margin-top:30px;
+}
+.garantia .icons img{
+	width:35px;
+}
+.garantia .icons p{
+	margin-top: 10px;
+}
+.garantia-hex{
+	margin-top:-6%;
+}
 
 
 /*FOOTER*/
