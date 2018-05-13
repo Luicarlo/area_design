@@ -675,6 +675,7 @@ button.border-blanco{
    font-size:26px;
    margin-bottom:25px;
    line-height:30px;
+   text-align:center;
 
 
 
@@ -682,23 +683,28 @@ button.border-blanco{
 
 .cuadronegro2 p{
 
-   font-size:12px;
+   font-size: 14px;   
+   line-height: 28px;
    
 
 }
 
 .cuadronegro2 h1{
 
-	font-size:100px;
+	font-size:55px;
 	line-height: 100px;
-	padding-bottom: 40px;
+	padding-bottom: 10px;
+	text-align:center;
 }
 
 .logoservicios{
 
-    width: 60px;
+    width: 75px;
     padding: 15px;
     border-radius: 100%;
     border:solid 1px #fff; 
+    margin-left: 227px;
+    margin-top: 50px;
+    margin-bottom: 30px;   
 
 }
