@@ -736,3 +736,67 @@ button.border-blanco{
 
 
 }
+.hex-emp{
+	height: 250px;
+	margin-top:150px;
+	margin-bottom:150px;
+}
+.hex-emp img{
+	margin-top:-80px;
+}
+.testimonio{
+	padding: 80px;
+}
+
+
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.quote {
+    color: rgba(0,0,0,.1);
+    text-align: center;
+    margin-bottom: 30px; 
+}
+
+/*-------------------------------*/
+/*    Carousel Fade Transition   */
+/*-------------------------------*/
+
+#fade-quote-carousel.carousel {
+  padding-bottom: 60px;
+}
+#fade-quote-carousel.carousel .carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+      -ms-transition-property: opacity;
+          transition-property: opacity;
+}
+#fade-quote-carousel.carousel .carousel-inner .active {
+  opacity: 1;
+  -webkit-transition-property: opacity;
+      -ms-transition-property: opacity;
+          transition-property: opacity;
+}
+#fade-quote-carousel.carousel .carousel-indicators {
+  bottom: 10px;
+}
+#fade-quote-carousel.carousel .carousel-indicators > li {
+  background-color: #fff;
+  border: solid 2px #000;
+}
+#fade-quote-carousel.carousel .carousel-indicators > li.active{
+  background-color: #000;
+  border: solid 2px #000;
+}
+#fade-quote-carousel blockquote {
+    text-align: center;
+    border: none;
+}
+#fade-quote-carousel .profile-circle {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 100px;
+}
