@@ -690,11 +690,15 @@ button.border-blanco{
 .cuadronegro2 h1{
 
 	font-size:100px;
+	line-height: 100px;
 	padding-bottom: 40px;
 }
 
 .logoservicios{
 
-    width: 60px; 
+    width: 60px;
+    padding: 15px;
+    border-radius: 100%;
+    border:solid 1px #fff; 
 
 }
