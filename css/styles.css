@@ -698,9 +698,15 @@ button.border-blanco{
     width: 75px;
     padding: 15px;
     border-radius: 100%;
+<<<<<<< HEAD
     border:solid 1px #fff; 
     margin:0 auto;
     margin-bottom: 30px; 
       
+=======
+    border:solid 1px #fff;
+    margin-top: 50px;
+    margin-bottom: 30px;   
+>>>>>>> a462c08a07d831dd659c0bcae3a77ffab058f91c
 
 }
