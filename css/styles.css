@@ -688,4 +688,40 @@ button.border-blanco{
     z-index: -2;
     margin-top: -252px;
 
-    }
+}
+.inter-design{
+    	min-height: 280px;
+    	max-height: 370px;
+    	background: url(../images/interior-design_serv.png);
+    	background-size:cover;
+    	color:#fff;
+    	padding: 60px;
+    	text-align:center;
+}
+.inter-design p, .demo-reel p, .our-blog p{
+	font-size:10px;
+}
+.inter-design a, .demo-reel a, .our-blog a{
+	color: #fff;
+	font-size:14px;
+	padding-top:40px;
+}
+.demo-reel{
+    	min-height: 280px;
+    	max-height: 370px;
+    	background: url(../images/demo-reel_serv.png);
+    	background-size:cover;
+    	color:#fff;
+    	padding: 60px;
+    	text-align:center;
+}
+.our-blog{
+	min-height: 280px;
+    	max-height: 370px;
+    	background: url(../images/our-blog_serv.png);
+    	background-size:cover;
+    	color:#fff;
+    	padding: 60px;
+    	text-align:center;
+
+}
