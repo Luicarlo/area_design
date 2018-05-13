@@ -656,3 +656,45 @@ button.border-blanco{
 .gallery_product img{
 	width:100%;
 }
+
+
+.cuadronegro2{
+
+
+   min-height: 370px;
+   background-color:#000;
+   padding: 60px;
+   color:#fff;
+   line-height:16px;
+   align-content: center;
+
+}
+
+.cuadronegro2 h2{
+
+   font-size:26px;
+   margin-bottom:25px;
+   line-height:30px;
+
+
+
+}
+
+.cuadronegro2 p{
+
+   font-size:12px;
+   
+
+}
+
+.cuadronegro2 h1{
+
+	font-size:100px;
+	padding-bottom: 40px;
+}
+
+.logoservicios{
+
+    width: 60px; 
+
+}
