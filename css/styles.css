@@ -378,11 +378,6 @@ hr.line{
 
 
 
-.formulario {
-
-   
-
-}
 
 .form1{
 
@@ -437,12 +432,10 @@ button.border-blanco{
 
 .cuadronegro{
 
-
    min-height: 370px;
    background-color:#000;
    padding: 60px;
    color:#fff;
-   line-height:16px;
 }
 
 .cuadronegro h2{
@@ -451,15 +444,12 @@ button.border-blanco{
    margin-bottom:25px;
    line-height:30px;
 
-
-
 }
 
 .cuadronegro p{
 
    font-size:12px;
-   
-
+  
 }
 
 
@@ -512,37 +502,27 @@ button.border-blanco{
 }
 
 .servicios{
-
 	padding-top: 200px;
 	font-size:50px;
 	font-size: 22px;
-
 }
 
 .barragris{
-
     width:100%;
     padding: 100px 40px;
-    
 }
 
 .img1servicio{
-
     width: 470px;
     height: 560px;
     position: absolute;
     margin-top: -252px;
-
-
 }
 
 .h2servicios{
-
    color:#000;
    font-size: 26px;
    padding-top: 0px;
-   
-
 }
 
 .p2servicios{
@@ -551,7 +531,7 @@ button.border-blanco{
    font-size: 12px;
    padding: 40px 0;
    align-content: 5px;
-   line-height: 24px;
+   line-height: 16px;
    text-align: justify;
 
 
@@ -655,13 +635,8 @@ button.border-blanco{
 
 
 .cuadronegro2{
-
-
-   min-height: 370px;
    background-color:#000;
-   padding: 60px;
    color:#fff;
-   line-height:16px;
    align-content: center;
 
 }
@@ -672,7 +647,7 @@ button.border-blanco{
    margin-bottom:25px;
    line-height:30px;
    text-align:center;
-
+	
 
 
 }
@@ -698,15 +673,19 @@ button.border-blanco{
     width: 75px;
     padding: 15px;
     border-radius: 100%;
-<<<<<<< HEAD
-    border:solid 1px #fff; 
-    margin:0 auto;
-    margin-bottom: 30px; 
-      
-=======
     border:solid 1px #fff;
     margin-top: 50px;
     margin-bottom: 30px;   
->>>>>>> a462c08a07d831dd659c0bcae3a77ffab058f91c
 
 }
+
+.img2servicio{
+
+    width: 470px;
+    height: 560px;
+    position: absolute;
+    right: 15px;
+    z-index: -2;
+    margin-top: -252px;
+
+    }
