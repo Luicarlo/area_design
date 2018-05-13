@@ -370,6 +370,11 @@ hr.line{
 	#footer nav ul li a {
 	font-size:14px;
 	}
+	.employeers{
+
+	margin-top: 40px; 
+
+}
 }
 
 
@@ -751,7 +756,6 @@ button.border-blanco{
 
 section {
     padding-top: 50px;
-    padding-bottom: 50px;
 }
 
 .quote {
@@ -795,8 +799,40 @@ section {
     border: none;
 }
 #fade-quote-carousel .profile-circle {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     margin: 0 auto;
-    border-radius: 100px;
+    text-align: center;
+    margin-top:15px;
+}
+.bg-office{
+	background: url(../images/bg-office.jpg);
+	background-size: cover;
+	height: 300px;
+}
+.employeers{
+
+	margin-top:-60px; 
+
+}
+.employeers article{
+	padding:15px;
+	background-color: #000;
+	color:#fff;
+	margin-bottom: 30px;
+	display:block;
+	text-align: center;
+}
+.employeers article h4{
+	font-size:12px!important;
+}
+.employeers article p{
+	font-size:9px;
+}
+.contact-us{
+	background: url(../images/bg-contact-us.png);
+	background-size:cover;
+	padding: 80px;
+	text-align: center;
+	color: #fff;
 }
