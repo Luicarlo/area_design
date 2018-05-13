@@ -28,6 +28,9 @@ blockquote:before, blockquote:after, q:before, q:after {content: '';content: non
 table {border-collapse: collapse;border-spacing: 0;}
 
 /*GENERAL*/
+a:hover{
+	text-decoration: none;
+}
 .top10{
 	margin-top: 10px;
 }
@@ -292,7 +295,42 @@ hr.line{
 .garantia-hex{
 	margin-top:-6%;
 }
-
+.garantia .img-hex{
+	width:100%;
+}
+.prv-portfolio{
+	padding: 300px 0 100px;
+	margin-top: -170px;
+}
+.prv-portfolio .description{
+	min-height: 226px;
+}
+.prv-portfolio a{
+	width:100%;
+	max-width:250px;
+	border:solid 1px #000;
+	color:#000;
+	text-align: center;
+	padding:10px;
+	font-size:13px; 
+	background-color: none;
+	margin-top: 25px;
+	position: absolute;
+	display:inline-block; 
+	bottom: 0px;
+	left: 15px;
+	display:block;
+}
+@media screen and (max-width: 767px) {
+	.prv-portfolio{
+		padding: 180px 0 100px;
+		margin-top: -110px;
+	}
+	.prv-portfolio .description{
+		min-height: 200px;
+		margin-bottom:30px;
+	}
+}
 
 /*FOOTER*/
 #footer{
