@@ -699,8 +699,8 @@ button.border-blanco{
     padding: 15px;
     border-radius: 100%;
     border:solid 1px #fff; 
-    margin-left: 227px;
-    margin-top: 50px;
-    margin-bottom: 30px;   
+    margin:0 auto;
+    margin-bottom: 30px; 
+      
 
 }
